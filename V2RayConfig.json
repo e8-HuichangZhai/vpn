@@ -1,0 +1,20 @@
+{
+    "inbounds": [
+        {
+            "port": 10186, // 服务器监听端口
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "8c93a43d-2004-4fd6-905b-2c8e4545f1fe"
+                    }
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
